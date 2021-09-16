@@ -6,7 +6,7 @@ cd "Project 1"
 touch "text"
 vim "text"
 :wq
-git add "text"h
+git add "text"
 git commit -m "add code in the text"
 git push
 git status
