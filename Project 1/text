@@ -1,0 +1,13 @@
+cd /Users/lidanyang/Desktop/Computational-Social-Science-Training-Program
+git clone https://github.com/danyangli22/Computational-Social-Science-Projects.git
+cd Computational-Social-Science-Projects
+mkdir "Project 1"
+cd "Project 1"
+touch "text"
+vim "text"
+:wq
+git add "text"
+git commit -m "add code in the text"
+git push
+git status
+git pull
